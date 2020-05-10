@@ -1,0 +1,25 @@
+{
+  "name": "shared-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js,html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "express": "^4.17.1",
+    "firebase": "^7.14.2",
+    "hbs": "^4.1.1",
+    "http": "0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
